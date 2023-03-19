@@ -11,7 +11,7 @@ var numPoints = 500;
 var speed;
 let density;
 
-var colors = ['#bf616a', '#a3be8c', '#ebcb8b', '#88c0d0', '#d08770', '#5e81ac'];
+var colors = ['#bf616a', '#bf616a', '#bf616a', '#bf616a', '#bf616a', '#bf616a'];
 
 let isLoop, isRecording, save;
 let p5Canvas;
