@@ -90,7 +90,7 @@ function draw() {
 
 function initSketch() {
   clearCanvas();
-  background('#4c566a');
+  background('#00000');
   for (let i = 0; i < numParticles.value(); i++) {
     var x = random(width);
     var y = random(height);
