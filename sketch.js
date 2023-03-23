@@ -20,7 +20,7 @@ function setup() {
   p5Canvas = createCanvas(800, 800);
   p5Canvas.parent('sketch-holder');
   frameRate(60);
-  background('#564a3c');
+  background('#eebb45');
   angleMode(DEGREES);
 
   setupUI();
@@ -47,7 +47,7 @@ function draw() {
   }
 
   if (path_type == 'particle') {
-    background('#564a3b');
+    background('#eebb45');
   }
 
   numOfParticles();
@@ -90,7 +90,7 @@ function draw() {
 
 function initSketch() {
   clearCanvas();
-  background('#564a3b');
+  background('#eebb45');
   for (let i = 0; i < numParticles.value(); i++) {
     var x = random(width);
     var y = random(height);
