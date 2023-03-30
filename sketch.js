@@ -48,7 +48,7 @@ function draw() {
   }
 
   if (path_type == 'particle') {
-    background('#eebb45');
+    background('#f3f1e5');
   }
 
   numOfParticles();
@@ -91,7 +91,7 @@ function draw() {
 
 function initSketch() {
   clearCanvas();
-  background('#eebb45');
+  background('#f3f1e5');
   for (let i = 0; i < numParticles.value(); i++) {
     var x = random(width);
     var y = random(height);
