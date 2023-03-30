@@ -11,7 +11,8 @@ var numPoints = 500;
 var speed;
 let density;
 
-var colors = ['#e69c94', '#cc442c', '#3f5564', '#cd562d', '#eebb45', '#315841'];
+var colors = ['#3b68ff', '#ff3535', '#ff8b4a', '#27996b', '#ffd438', '#ffcae0'];
+
 
 let isLoop, isRecording, save;
 let p5Canvas;
@@ -20,7 +21,7 @@ function setup() {
   p5Canvas = createCanvas(800, 800);
   p5Canvas.parent('sketch-holder');
   frameRate(60);
-  background('#eebb45');
+  background('#f3f1e5');
   angleMode(DEGREES);
 
   setupUI();
